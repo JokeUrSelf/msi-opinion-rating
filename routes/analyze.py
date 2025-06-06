@@ -1,6 +1,6 @@
 from flask import jsonify, request
 from utils.routing import route
-from model.transformer import sentiment_analyzer
+from model.model import sentiment_analyzer
 
 
 @route("/analyze", methods=["POST"])
